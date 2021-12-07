@@ -18,13 +18,21 @@ namespace AdventOfCode
             int puzzle3 = Puzzle3.GetPowerConsumption(path3);
             Console.WriteLine(puzzle3);*/
 
-            string path4 = @"A:\Proyectos\AdventOfCode21\AdventOfCode\Puzzles\Day4\input.txt";
+            /*string path4 = @"A:\Proyectos\AdventOfCode21\AdventOfCode\Puzzles\Day4\input.txt";
             int puzzle4 = Puzzle4.Part2(path4);
-            Console.WriteLine(puzzle4);
+            Console.WriteLine(puzzle4);*/
 
             /*string path5 = @"A:\Proyectos\AdventOfCode21\AdventOfCode\Puzzles\Day5\input.txt";
             int puzzle5 = Puzzle5.Part2(path5);
             Console.WriteLine(puzzle5);*/
+
+            /*string path6 = @"A:\Proyectos\AdventOfCode21\AdventOfCode\Puzzles\Day6\input.txt";
+            long puzzle6 = Puzzle6.Part2(path6);
+            Console.WriteLine(puzzle6);*/
+
+            string path7 = @"A:\Proyectos\AdventOfCode21\AdventOfCode\Puzzles\Day7\input.txt";
+            long puzzle7 = Puzzle7.Part2(path7);
+            Console.WriteLine(puzzle7);
         }
     }
 }
