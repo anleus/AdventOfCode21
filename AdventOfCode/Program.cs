@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace AdventOfCode
 {
@@ -30,9 +31,13 @@ namespace AdventOfCode
             long puzzle6 = Puzzle6.Part2(path6);
             Console.WriteLine(puzzle6);*/
 
-            string path7 = @"A:\Proyectos\AdventOfCode21\AdventOfCode\Puzzles\Day7\input.txt";
+            /*string path7 = @"A:\Proyectos\AdventOfCode21\AdventOfCode\Puzzles\Day7\input.txt";
             long puzzle7 = Puzzle7.Part2(path7);
-            Console.WriteLine(puzzle7);
+            Console.WriteLine(puzzle7);*/
+
+            string path8 = @"A:\Proyectos\AdventOfCode21\AdventOfCode\Puzzles\Day8\input.txt";
+            int puzzle8 = Puzzle8.Part2(path8);
+            Console.WriteLine(puzzle8);
         }
     }
 }
